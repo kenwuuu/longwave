@@ -16,22 +16,22 @@ export function CommonFooter() {
       <p style={{ margin: 8 }}>
         <Link href="https://www.wavelength.zone/" text="Wavelength" /> is
         designed by Wolfgang Warsch, Alex Hague, and Justin Vickers.{" "}
-        <Link
-          href="https://github.com/cynicaloptimist/longwave"
-          text="Adapted for web"
-        />{" "}
-        by Evan Bailey and Margarethe Schoen.
+        {/*<Link*/}
+        {/*  href="https://github.com/cynicaloptimist/longwave"*/}
+        {/*  text="Adapted for web"*/}
+        {/*/>{" "}*/}
+        {/*by Evan Bailey and Margarethe Schoen.*/}
       </p>
       {/* we want referrer, so: */}
       {/* eslint-disable-next-line react/jsx-no-target-blank */}
-      <a target="_blank" href="https://www.patreon.com/improvedinitiative">
-        <img
-          alt="Patreon logo"
-          title="Support us on Patreon!"
-          src="./Digital-Patreon-Wordmark_FieryCoral.png"
-          style={{ width: "150px", margin: 8 }}
-        />
-      </a>
+      {/*<a target="_blank" href="https://www.patreon.com/improvedinitiative">*/}
+      {/*  <img*/}
+      {/*    alt="Patreon logo"*/}
+      {/*    title="Support us on Patreon!"*/}
+      {/*    src="./Digital-Patreon-Wordmark_FieryCoral.png"*/}
+      {/*    style={{ width: "150px", margin: 8 }}*/}
+      {/*  />*/}
+      {/*</a>*/}
     </div>
   );
 }
