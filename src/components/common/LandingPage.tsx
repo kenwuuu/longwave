@@ -17,7 +17,7 @@ export function LandingPage() {
         }}
       />
       <p style={{ margin: 8 }}>
-        <strong>Longwave</strong> is an online, real-time adaptation of the{" "}
+        <strong>Nuwave</strong> is an online, real-time adaptation of the{" "}
         <em>Wavelength</em> board game. Best enjoyed with voice chat!
       </p>
     </CenteredColumn>
